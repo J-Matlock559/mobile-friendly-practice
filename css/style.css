@@ -47,20 +47,20 @@ footer{
     letter-spacing: -2px;
 }
 
-@media (max-width: 480px){
+@media (max-width: 1024px){
     .cls-1{
-        background-color: red;
+        fill: red !important;
     }
 }
 
 @media (max-width: 768px){
     .cls-1{
-        background-color: black;
+        fill: black !important;
     }
 }
 
-@media (max-width: 1024px){
+@media (max-width: 480px){
     .cls-1{
-        background-color: yellow;
+        fill: yellow !important;
     }
 }
